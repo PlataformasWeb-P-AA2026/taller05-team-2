@@ -1,21 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-jquery-datatable</title>
+    <title>Jugadores Mundial 2026 - UTPL</title>
   </head>
+
   <body>
-    <select id="vista">
-      <option value="por_club">Por club</option>
-      <option value="por_partidos">Por partidos</option>
-      <option value="por_goles">Por goles</option>
-    </select>
 
-    <input id="filtro" type="text" placeholder="Filtrar por criterio">
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+      <h1>Integración de Datos CouchDB</h1>
+      <p>Jugadores Mundial 2026</p>
+    </header>
 
-    <table id="tabla-posts"></table>
+    <!-- CONTENIDO -->
+    <main class="contenido">
+
+      <select id="vista">
+        <option value="por_club">Por club</option>
+        <option value="por_partidos">Por partidos</option>
+        <option value="por_goles">Por goles</option>
+      </select>
+
+      <input id="filtro" type="text" placeholder="Filtrar por criterio" />
+
+      <table id="tabla-posts"></table>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="pie">
+      <p>Universidad Técnica Particular de Loja - UTPL</p>
+      <p>Taller 05 - Integración de Datos</p>
+    </footer>
+
+    <!-- SCRIPT -->
     <script type="module" src="/src/main.js"></script>
+
   </body>
 </html>
