@@ -1,4 +1,5 @@
 # taller05
+# Integrantes: Leandro Saquisari - Leydi Robalino
 
 ## Integración de datos y uso de CouchDB
 
