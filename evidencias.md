@@ -116,11 +116,7 @@ Ejecutar el proyecto:
 npm run dev
 ```
 
-Abrir en el navegador:
 
-```text
-http://localhost:5173
-```
 
 ## 6. Evidencias
 
