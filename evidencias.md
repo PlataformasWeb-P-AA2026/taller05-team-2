@@ -3,7 +3,7 @@
 ## 1. Clonar el repositorio
 
 ```bash
-git clone <[URL_DEL_REPOSITORIO](https://github.com/PlataformasWeb-P-AA2026/taller05-team-2.git)>
+git clone <(https://github.com/PlataformasWeb-P-AA2026/taller05-team-2.git)>
 cd taller05-team-2
 ```
 
