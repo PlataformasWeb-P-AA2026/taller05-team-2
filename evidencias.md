@@ -41,16 +41,13 @@ Tener CouchDB ejecutándose en:
 http://localhost:5984 
 ```
 
-Luego ejecutar:
+Luego crear la base de datos "jugadores":
+
+
+Ejecutar el archivo que sube el json a la base de datos
 
 ```bash
 python cargar_couchdb.py
-```
-
-Este script crea la base de datos:
-
-```text
-jugadores
 ```
 
 y carga los documentos del archivo `mundial_2026.json`.
