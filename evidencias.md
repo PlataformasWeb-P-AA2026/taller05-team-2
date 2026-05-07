@@ -52,45 +52,9 @@ python cargar_couchdb.py
 
 y carga los documentos del archivo `mundial_2026.json`.
 
-## 4. Crear vistas en CouchDB
 
-Design Document:
 
-```text
-_design/losjugadores
-```
-
-Vista `por_club`:
-
-```javascript
-function(doc) {
-  if (doc.club_actual) {
-    emit(doc.club_actual, doc);
-  }
-}
-```
-
-Vista `por_goles`:
-
-```javascript
-function(doc) {
-  if (doc.goles) {
-    emit(doc.goles, doc);
-  }
-}
-```
-
-Vista `por_partidos`:
-
-```javascript
-function(doc) {
-  if (doc.partidos) {
-    emit(doc.partidos, doc);
-  }
-}
-```
-
-## 5. Ejecutar frontend
+## 4. Ejecutar frontend
 
 Regresar a la raíz del proyecto:
 
@@ -118,7 +82,7 @@ npm run dev
 
 
 
-## 6. Evidencias
+## 5. Evidencias
 
 ### Base de datos en CouchDB
 
