@@ -35,11 +35,7 @@ mundial_2026.json
 
 ## 3. Cargar datos en CouchDB
 
-Tener CouchDB ejecutándose en:
-
-```text
-http://localhost:5984 
-```
+Tener CouchDB ejecutándose y editar el archivo credenciales.py con sus credencias 
 
 Luego crear la base de datos "jugadores":
 
