@@ -48,7 +48,7 @@ python cargar_couchdb.py
 
 y carga los documentos del archivo `mundial_2026.json`.
 
-
+## 3.1 Quitar Permiso a la base de datos en CouchDB
 
 ## 4. Ejecutar frontend
 
